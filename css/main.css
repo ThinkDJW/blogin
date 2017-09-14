@@ -1,0 +1,44 @@
+.clearFloat:after{display:block;clear:both;content:'';width:0;height:0;visibility: hidden;}
+.clearA a{color:#f5f5f5;text-decoration: none;}
+
+.header{height:130px;background-color:#292929;margin:0;padding:0;width:100%;border-bottom: 4px solid #1e1e1e;}
+.container{width:80%;margin:0 auto;}
+.header-logo{display: inline-block;float:left;margin-top:50px;}
+.header-nav{margin:0;padding:0;display: inline-block;float:right;}
+.header-nav .header-nav-list{font-size:0;}
+.header-nav .header-nav-list .item{font-size:16px;display: inline-block;padding:57px 35px;border-left:1px solid #1d1d1d;border-right:1px solid #1d1d1d;}
+.selected{border-bottom:4px solid #58c93a;}
+.selected a {color:#58c93a !important;}
+
+.post{margin:0;padding:0;margin-top:80px;}
+.post-img,
+.post-detail{float:left;display: inline-block;width:50%;max-width: 50%;vertical-align: top;border:0;}
+.post-title{font-size:28px;color:#4f4e4e;letter-spacing: 5px;font-weight:bold;}
+.post-content{margin-top:60px;font-size:18px;letter-spacing: 2px;text-indent: 1em;color:#888888;}
+.post-more-detail{display: inline-block;margin-top:60px;color:#c6c6c6;border-radius:20px;padding:10px 20px;border:2px solid #c2c2c2;}
+.post-detail .active{color:#58c93a;border-color:#58c93a;}
+.pages-group{margin-top:80px;}
+#previous-btn,
+#next-btn{display: inline-block;margin:20px 40px;padding:10px 20px;font-size:18px;color:#818181;letter-spacing:2px;border:2px solid #c6c6c6;border-radius:10px;cursor:pointer;}
+#previous-btn{float:left;}
+#next-btn{float:right;}
+
+.footer{background-color:#f8f8f8;border-top:1px solid #c6c6c6;}
+.footer .container{text-align: center;}
+#footer-logo{display: block;margin-top:80px;margin-left:50%;position: relative;left:-16.5px;}
+.copyRight{margin-top:40px;}
+.copyRight,
+#friend-links{font-size:16px;color:#999;letter-spacing:1px;}
+#friend-links{margin-top:10px;}
+#friend-links a{text-decoration: none;color:#58c93a;font-weight: bold;}
+.outside-links li{background-color:#c6c6c6;display: inline-block;margin-top:30px;margin-left:20px;}
+#profile-f1,
+#profile-f2,
+#profile-f3,
+#profile-f4{display: inline-block;padding:20px;}
+#profile-f1{background:url('../images/profile-f1.png')  no-repeat center center;}
+#profile-f2{background:url('../images/profile-f2.png')  no-repeat center center;}
+#profile-f3{background:url('../images/profile-f3.png')  no-repeat center center;}
+#profile-f4{background:url('../images/profile-f4.png')  no-repeat center center;}
+.outside-links{padding-bottom: 80px;}
+.outside-links .selected{background-color:#516fad;border:none;}
